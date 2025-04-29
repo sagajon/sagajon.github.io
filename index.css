@@ -1,0 +1,197 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 75vh
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.page {
+    position: relative;
+    height: 100%;
+    margin: auto;
+    width: 90%;
+}
+
+.page h2 {
+    text-align: center;
+}
+
+.reference{
+    width: 30dvw;
+    margin: 5px
+}
+
+.centerTable{
+    display: flex;
+        justify-content: center;
+    column-count: 2;
+}
+
+#screenSizeWarning {
+    display: none;
+}
+
+#consentPage p {
+    width: 80%;
+    margin: auto;
+}
+#knowledgePage p {
+    width: 80%;
+    margin: auto;
+}
+
+.centerButton {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#instructionPage {
+    display: none;
+}
+
+#instructionPage p {
+    width: 80%;
+    margin: auto;
+}
+
+.highlightedText {
+    background-color: red;
+}
+
+#referencePage {
+    display: none;
+}
+
+#referencePage p {
+    width: 80%;
+    margin: auto;
+}
+
+#referencePage a {
+    display: block;
+}
+
+#referencePage table {
+    width: 100%;
+}
+
+/* #referencePage img {
+    height: 20em;
+} */
+
+#trialPage {
+    display: none;
+    text-align: center;
+}
+
+#trialPage table {
+    margin: auto;
+}
+
+#trialPage td {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+/* #trialPage img {
+    width: 800px;
+} */
+
+.imageContainer {
+    column-count: 2;
+    margin-top: 10px;
+}
+
+.choiceContainer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+#appealQuestion {
+    display: none;
+}
+
+.appealButton {
+    display: none;
+}
+
+#demographicsPage {
+    display: none;
+}
+
+#demographicsPage table {
+    margin: auto;
+    width: 70%;
+}
+
+#demographicsPage table td {
+    padding: 1em;
+}
+
+.model {
+    width: 38vw;
+    height: 38vw;
+    border-style: solid;
+    border-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.red {
+    color: red;
+}
+
+.preloadImage {
+    display: none;
+}
+
+button {
+  background-color: #e3dbdb;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  /* box-sizing: border-box; */
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 22px;
+  font-weight: 500;
+  padding: 6px 16px;
+  width: auto;
+}
+
+.realismButton{
+    width: 38vw;
+}
+
+.realismButton:hover {
+  background-color: #ffffff;
+  transition-duration: 0.1s;
+}
+
+@media (max-aspect-ratio: 1/1) {
+    .imageContainer{
+        column-count: 1;
+    }
+
+    .model{
+        width: 70vw;
+        height: 70vw;
+    }
+    
+    .realismButton {
+        width: 70vw;
+    }
+  }
